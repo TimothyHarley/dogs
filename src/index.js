@@ -1,8 +1,11 @@
 import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
+import dogsPhoto from './images/dogsrules.jpg'; // Image
 
 import dogGetter from './dogGetter';
+
+$('#dogPhoto').attr('src', dogsPhoto); // Image
 
 const createDogCards = (dogs) => {
   let newString = '';
